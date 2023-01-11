@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../Assets/Bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link href="../Assets/CSS/mystyle.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Outfit" rel="stylesheet">
+    <title>Task 3</title>
+    
+</head>
+
+<header>
+    <div class="container-fluid line p-1"></div>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container" id="menu">
+              <img class="navbar-brand" src="/Assets/Images/logo.svg" width="150px" height="75px">
+              <button class="navbar-toggler p-0 border-0" type="button"  data-bs-target="#navbarSupportedContent" aria-label="Toggle navigation" data-bs-toggle="collapse">
+                <span class="fa fa-bars"></span>
+            </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link topbar active" aria-current="page" href="#">Home</a>
+                  </li>
+                  
+                  <li class="nav-item dropdown">
+                    <a class="nav-link topbar dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      About
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link topbar" href="#">Evaluation</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link topbar" href="#">Education</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link topbar" href="#">Providers</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link topbar" href="#">Supplies</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link topbar" href="#">Pharmaceuticals</a>
+                  </li>
+                </ul>
+                    <label class="nav-link topbar" href="#">Login</label> 
+                    <button class="btn signup" type="submit">Signup</button> 
+              </div>
+            </div>
+          </nav>
+</header>
+<body>
+  <div class="container">
+    <div class="row">
+      <p class="mt-3 mb-1 click">Click Musculoskeletal icons below to quickly to filter education content to fit your needs.</p>
+      <p class="mb-1 note">Note you can also filter between our MOP Education Content and Provider Community Blogs.</p>
+    </div>
+  </div>
+<div class="container mb-4">
+  <div class="d-flex flex-row">
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" checked>
+      <label class="form-check-label me-2" for="flexRadioDefault1">
+        MOP Education Content
+      </label>
+    </div>
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+      <label class="form-check-label" for="flexRadioDefault2">
+        Provider Blogs
+      </label>
+    </div>
+  </div>
+</div>
+<div class="container">
+          <div class="nav flex-row justify-content-start nav-pills" id="v-pills-tab" role="tablist">
+            <a class="nav-link internal ms-2 mb-2 active"  data-bs-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true"><img src="/Assets/Images/pelvis.png" width="25px" height="20px"> Hip</a>
+            <a class="nav-link internal ms-2 mb-2"  data-bs-toggle="pill" href="#v-pills-connections" role="tab" aria-controls="v-pills-profile" aria-selected="false"><img src="/Assets/Images/knee.png" width="25px" height="20px">Knee</a>
+            <a class="nav-link internal ms-2 mb-2"  data-bs-toggle="pill" href="#v-pills-myplay" role="tab" aria-controls="v-pills-messages" aria-selected="false"><img src="/Assets/Images/shoulder.png" width="25px" height="20px">Shoulder</a>
+            <a class="nav-link internal ms-2 mb-2"  data-bs-toggle="pill" href="#v-pills-posts" role="tab" aria-controls="v-pills-settings" aria-selected="false"><img src="/Assets/Images/wrist.png" width="25px" height="20px">Hand & Wrist</a>
+            <a class="nav-link internal ms-2 mb-2"  data-bs-toggle="pill" href="#v-pills-myplay" role="tab" aria-controls="v-pills-messages" aria-selected="false"><img src="/Assets/Images/x-ray.png" width="25px" height="20px">Foot & Ankle</a>
+            <a class="nav-link internal ms-2 mb-2"  data-bs-toggle="pill" href="#v-pills-posts" role="tab" aria-controls="v-pills-settings" aria-selected="false"><img src="/Assets/Images/backbone.png" width="25px" height="20px">Spine</a>
+          </div>
+
+<div class="container">
+  <div class="row">
+  <div class="col-sm-12 col-md-12 col-lg-7 col-xl-7 col-xxl-7">
+    <div class="container p-0 ">
+      <div class="row pt-4">
+            <div class="col-sm-4 col-md-6 col-lg-6 col-xl-6 col-xxl-4 pb-3">
+                <div class="card">
+                    <img class="p-2 imgborder" src="/Assets/Images/shoulderphotobig.jpeg" width="100%" height="100%">
+                    <div class="card-body">
+                      <p class="cardtext1">Shoulder</p>
+                      <p class="cardtext2 text-nowrap">DJD Shoulder / TSR</p>
+                    </div>
+                </div>
+            </div>    
+            <div class="col-sm-4 col-md-6 col-lg-6 col-xl-6 col-xxl-4 pb-3">
+              <div class="card">
+                  <img class="p-2 imgborder" src="/Assets/Images/hippainbig.png" width="100%" height="100%">
+                  <div class="card-body">
+                    <p class="cardtext1">Hip</p>
+                    <p class="cardtext2">Hip Bursitis</p>
+                  </div>
+              </div>
+            </div>  
+            <div class="col-sm-4 col-md-6 col-lg-6 col-xl-6 col-xxl-4 pb-3">
+              <div class="card">
+                  <img class="p-2 imgborder" src="/Assets/Images/iStock_knee_painbig.png" width="100%" height="100%">
+                  <div class="card-body">
+                    <p class="cardtext1">Knee</p>
+                    <p class="cardtext2">ACL Tear</p>
+                  </div>
+              </div>
+            </div>  
+            <div class="col-sm-4 col-md-6 col-lg-6 col-xl-6 col-xxl-4 pb-3">
+              <div class="card">
+                  <img class="p-2 imgborder" src="/Assets/Images/handbig.png" width="100%" height="100%">
+                  <div class="card-body">  
+                    <p class="cardtext1">Hand & Wrist</p>
+                    <p class="cardtext2">Carpel Tunnel Syndrome</p>
+                  </div>
+              </div>
+          </div>    
+          <div class="col-sm-4 col-md-6 col-lg-6 col-xl-6 col-xxl-4 pb-3">
+            <div class="card">
+                <img class="p-2 imgborder" src="/Assets/Images/footbig.png" width="100%" height="100%">
+                <div class="card-body">
+                  <p class="cardtext1">Foot & Ankle</p>
+                  <p class="cardtext2">Ingrown Toenail</p>
+                </div>
+            </div>
+          </div>  
+          <div class="col-sm-4 col-md-6 col-lg-6 col-xl-6 col-xxl-4 pb-3">
+            <div class="card">
+                <img class="p-2 imgborder" src="/Assets/Images/OIP1X1big.png" width="100%" height="100%">
+                <div class="card-body">
+                  <p class="cardtext1">Foot & Ankle</p>
+                  <p class="cardtext2">Ankle Arthritis</p>
+                </div>
+            </div>
+          </div>  
+          <div class="col-sm-4 col-md-6 col-lg-6 col-xl-6 col-xxl-4 pb-3">
+            <div class="card">
+                <img class="p-2 imgborder" src="/Assets/Images/shoulderphotobig.jpeg" width="100%" height="100%">
+                <div class="card-body">
+                  <p class="cardtext1">Shoulder</p>
+                  <p class="cardtext2">DJD Shoulder / TSR</p>
+                </div>
+            </div>
+        </div>    
+        <div class="col-sm-4 col-md-6 col-lg-6 col-xl-6 col-xxl-4 pb-3">
+          <div class="card">
+              <img class="p-2 imgborder" src="/Assets/Images/hippainbig.png" width="100%" height="100%">
+              <div class="card-body">
+                <p class="cardtext1">Hip</p>
+                <p class="cardtext2">Hip Bursitis</p>
+              </div>
+          </div>
+        </div>  
+        <div class="col-sm-4 col-md-6 col-lg-6 col-xl-6 col-xxl-4 pb-3">
+          <div class="card">
+              <img class="p-2 imgborder" src="/Assets/Images/iStock_knee_painbig.png" width="100%" height="100%">
+              <div class="card-body">
+                <p class="cardtext1">Knee</p>
+                <p class="cardtext2">ACL Tear</p>
+              </div>
+          </div>
+        </div>  
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-12 col-md-12 col-lg-5 col-xl-5 col-xxl-5">
+    <div class="container">
+      <div class="row">
+        <div class="card mt-4">
+          <p class="text-center search1 mt-2">Search for your diagnosis to find  treatment Options</p>
+          <div class="input-group p-3">
+            <input  type="text" aria-label="Time" class="form-control" placeholder="Search...">
+            <button class="btn search" type="button" id="button-addon2">&#xF002;</button>
+            <div class="container p-0">
+              <div class="form-check mt-3">
+                <input class="form-check-input" type="radio" name="flexRadioDefaulti" id="flexRadioDefaulti1" checked>
+                <label class="form-check-label me-2" for="flexRadioDefaulti1">
+                  MOP Education Content
+                </label>
+              </div>
+              <div class="form-check mb-3">
+                <input class="form-check-input" type="radio" name="flexRadioDefaulti" id="flexRadioDefaulti2">
+                <label class="form-check-label" for="flexRadioDefaulti2">
+                  Provider Blogs
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card mt-3">
+          <div class="card-header bg-white">
+            <p class="latest mt-4">Latest MOP Provider Blogs</p>
+          </div>
+          <div class="card-body pt-4">
+              <div class="row">
+                <div class="col-5">
+                  <img src="/Assets/Images/dococvide.png" width="100%" height="100%">
+                </div>
+                <div class="col-7 align-self-center">
+                  <p class="m-0 spine">Spine</p>
+                  <p class="m-0 spine2">Cervical Spondylosis</p>
+                  <p class="m-0 spine3">Dr. Wiley Waites</p>
+                </div>
+              </div>
+              <div class="row mt-2">
+                <div class="col-5">
+                  <img src="/Assets/Images/ankle.png" width="100%" height="100%">
+                </div>
+                <div class="col-7 align-self-center">
+                  <p class="m-0 spine">Shoulder</p>
+                  <p class="m-0 spine2">Shoulder Fracture</p>
+                  <p class="m-0 spine3">Dr. Wiley Waites</p>
+                </div>
+              </div>
+              <div class="row mt-2">
+                <div class="col-5">
+                  <img src="/Assets/Images/handpain1.png" width="100%" height="100%">
+                </div>
+                <div class="col-7 align-self-center">
+                  <p class="m-0 spine">Foot & Ankle</p>
+                  <p class="m-0 spine2">Plantar Fasciitis</p>
+                  <p class="m-0 spine3">Dr. Wiley Waites</p>
+                </div>
+              </div>
+              <div class="row mt-2">
+                <div class="col-5">
+                  <img src="/Assets/Images/ankle.png" width="100%" height="100%">
+                </div>
+                <div class="col-7 align-self-center">
+                  <p class="m-0 spine">Hip</p>
+                  <p class="m-0 spine2">Hip Bursitis</p>
+                  <p class="m-0 spine3">Dr. Wiley Waites</p>
+                </div>
+              </div>
+              <div class="row mt-2">
+                <div class="col-5">
+                  <img src="/Assets/Images/number1.png" width="100%" height="100%">
+                </div>
+                <div class="col-7 align-self-center">
+                  <p class="m-0 spine">Hand & Wrist</p>
+                  <p class="m-0 spine2">Carpel Tunnel Syndrome</p>
+                  <p class="m-0 spine3">Dr. Wiley Waites</p>
+                </div>
+              </div>
+              <div class="row mt-2">
+                <div class="col-5">
+                  <img src="/Assets/Images/dococvide.png" width="100%" height="100%">
+                </div>
+                <div class="col-7 align-self-center">
+                  <p class="m-0 spine">Knee</p>
+                  <p class="m-0 spine2">ACl Tear</p>
+                  <p class="m-0 spine3">Dr. Wiley Waites</p>
+                </div>
+              </div>
+          </div>
+        </div>
+        <div class="card my-4">
+          <div class="card-header bg-white">
+            <p class="latest mt-4">MOP Provider Blogs</p>
+          </div>
+          <div class="card-body">
+            <p>Foot & Ankle<label class="float-end">(25)</label></p>
+            <p>General Orthopedics<label class="float-end">(22)</label></p>
+            <p>Hand & Wrists<label class="float-end">(18)</label></p>
+            <p>Hip<label class="float-end">(15)</label></p>
+            <p>Innovation<label class="float-end">(15)</label></p>
+            <p>Knee<label class="float-end">(12)</label></p>
+            <p>Rehabilitation<label class="float-end">(25)</label></p>
+            <p>Shoulder<label class="float-end">(22)</label></p>
+            <p>Spine<label class="float-end">(18)</label></p>
+            <p>Wellness<label class="float-end">(15)</label></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+</div>
+</body>
+
+<footer>
+    <div class="container">
+      <div class="row pt-5 justify-content-center">
+        <div class="col-sm-4 col-md-12 col-lg-3 col-xl-3 col-xxl-3 midtier px-4 my-5">
+          <img src="/Assets/Images/logo.svg" width="200px" height="100px">
+          <div class="row text-footer">
+            Injures, joint replacements,and orthopedic issues are difficult to navigate. We have designed this site as a valuable resource for you to get the care you need when you need.
+          </div>
+          <div class="row p-0">
+            <div class="col-sm-12 col-md-12 col-lg-12 col-xl-2 col-xxl-2 p-0">
+              <img src="/Assets/Images/clinic_logo.png" width="50px" height="50px">
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-12 col-xl-10 col-xxl-10 align-self-center p-0">
+              <p class="text-footer3">A Clinekt Health Company</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4 col-md-12 col-lg-3 col-xl-3 col-xxl-3 midtier my-5">
+          <div class="flex-row quick">
+            <p class="text-footer1">Quick Links</p>
+            <p class="text-footer">Home</p>
+            <p class="text-footer">Evaluation</p>
+            <p class="text-footer">Education</p>
+            <p class="text-footer">Providers</p>
+          </div>
+        </div>
+        <div class="col-sm-4 col-md-12 col-lg-2 col-xl-2 col-xxl-2 midtier my-5">
+          <div class="flex-row">
+            <p class="text-footer1">Legal</p>
+            <p class="text-footer">Terms & Conditions</p>
+            <p class="text-footer">Cookie Policy</p>
+            <p class="text-footer">Privacy Policy</p>
+            <p class="text-footer">Advertising Policy</p>
+            <p class="text-footer">Review Guidelines</p>
+          </div>
+        </div>
+        <div class="col-sm-4 col-md-12 col-lg-4 col-xl-4 col-xxl-4 midtier my-5">
+          <p class="text-footer1">Contact Us</p>
+          <p class="text-footer">&#xF0E0; support@myorthopedicproblem.com</p>
+          <p class="text-footer1">Social Media</p>
+          <div class="flex-row">
+          <a class="btn text-white btn-floating social m-1" style="background-color: #55acee;" href="#!" role="button"><i class="fa fa-twitter"></i></a>
+          <a class="btn text-white btn-floating social m-1" style="background-color: #4e70b7;" href="#!" role="button"><i class="fa fa-facebook"></i></a>
+          <a class="btn text-white btn-floating social m-1" style="background-color: #ff0100;" href="#!" role="button"><i class="fa fa-youtube-play"></i></a>
+          <a class="btn text-white btn-floating social m-1" style="background-color: #c6a466;" href="#!" role="button"><i class="fa fa-instagram"></i></a>
+          <a class="btn text-white btn-floating social m-1" style="background-color: #0966c2;" href="#!" role="button"><i class="fa fa-linkedin"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr />
+    <div class="container text-center text-footer2 p-3">
+      <p>MyOrthopedicProblem.com © Copyright 2022 | Designed & All rights reserved</p>
+    </div>
+</footer>

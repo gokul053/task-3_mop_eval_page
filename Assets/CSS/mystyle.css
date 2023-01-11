@@ -1,0 +1,187 @@
+body
+{
+    background-color: #f8f8f8;
+}
+.line
+{
+    background-color: #105692;
+    width:auto;
+}
+.signup
+{
+    background-color: #d37204;
+    color: white;
+    border-radius: 20px;
+    font-weight: bold;
+}
+.topbar
+{
+    color: black;
+    font-size:medium;
+    font-weight: 400;
+}
+.imgborder
+{
+    border-radius: 15px !important;
+}
+hr 
+{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
+#menu
+{
+    border-bottom:1px solid #105692;
+}
+
+.click
+{
+    font-size: 110%;
+}
+.note
+{
+    font-size: 80%;
+    font-style: oblique;
+    font-weight: 500;
+}
+.tabs1
+{
+    border: #a6d5fa;
+    border-width: 1px;
+}
+.internal
+{
+    color:black;
+    border: 1px solid #a6d5fa !important;
+    background-color: white !important;
+}
+.internal.active
+{
+    
+  
+    background: #105692 !important;
+    color: black !important;
+    border-color: #a6d5fa;
+    
+}
+.internal:hover
+{
+    color: 105692px;;
+}
+
+.cardtext1
+{
+    opacity: 50%;
+    margin-bottom: 0%;
+
+}
+.cardtext2
+{
+    font-size: medium;
+    font-weight: bold;
+}
+.search
+{
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #105692;
+    color:white;  
+    font-family:Arial, FontAwesome;
+    border-top-right-radius: 5px !important;
+    border-bottom-right-radius: 5px !important;
+}
+.search:hover
+{
+    color:white;
+}
+.card
+{
+    border-radius: 8px;
+}
+
+.latest
+{
+    font-size: larger;
+    font-weight: 500;
+}
+
+.spine
+{
+    opacity: 50%;
+    font-size: medium;
+}
+.spine2
+{
+    font-weight: bold;
+    font-size: medium;
+}
+.spine3
+{
+    opacity: 50%;
+    font-size: medium;
+}
+.search1
+{
+    font-size: large;
+    font-weight: 500;
+}
+
+footer
+{
+    background-color: #302633;
+}
+.text-footer
+{
+    color: white;
+    opacity: 70%;
+    margin-bottom:  10px;
+    font-family: Arial, FontAwesome;
+    
+}
+.text-footer1
+{
+    font-weight: bold;
+    color: white;
+}
+.text-footer2
+{
+    color:white;
+    opacity: 80%;
+    padding-bottom: 5px;
+}
+.text-footer3
+{
+    margin: 0px;
+    color: white;
+    font-weight: bold;
+    font-size: medium;
+    text-decoration: underline;
+}
+
+.social
+{
+    border-radius: 30px;
+}
+.quick
+{
+    margin-left: 85px;
+}
+@media (max-width:991px)
+{
+    .midtier
+    {
+        text-align: center;
+        margin: 0%;
+        padding: 0%;
+    }
+}
+@media (max-width:991px)
+{
+    .quick
+    {
+        margin: 0px;
+        margin-top: 10px;
+    }
+}
